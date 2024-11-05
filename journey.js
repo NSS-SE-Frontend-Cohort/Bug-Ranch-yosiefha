@@ -24,10 +24,11 @@ const journeyMaker = () => {
     const journey = []
 
     const areas = {
-        rivers: createRivers(),
         forests: createForests(),
+        plains: createPlains(),
+        rivers: createRivers(),
         mountains: createMountains(),
-        plains: createPlains()
+        
     }
 
     for (let riverNumber = 0; riverNumber < areas.rivers; riverNumber++) {
